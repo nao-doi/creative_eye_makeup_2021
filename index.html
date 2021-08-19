@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>CREATIVE EYE MAKEUP_ARTWORK WEBSITE</title>
+  <style>
+    
+    body{
+      color: #cccccc;
+      background-color: black;
+      text-align: center;
+      font-family: "Times New Roman" ,Times ,Georgia, HiraMinProN-W3 ,'ＭＳ 明朝', 'MS Mincho',sans-serif;
+    }
+    h1{
+      color: #cccccc;
+      font-size: 60px;
+    }
+    h2{
+      font-size: 40px;
+    }
+    h3{
+      font-size: 25px;
+    }
+    p{
+      font-size: 20px;
+    }
+    /*img{
+      min-width: 200px;
+
+    }*/
+    #profile{
+      padding-top: 20px;
+    }
+    
+    #top{
+      width: 100%;
+      height: auto;
+    }
+    #about{
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    .midashi{
+      font-size: 50px;
+      display: flex;
+      align-items: center; /* 垂直中心 */
+      justify-content: center; /* 水平中心 */
+      padding-bottom: 50px;
+      letter-spacing: 10px;
+
+    }
+    .midashi:before, .midashi:after {
+     border-top: 3px double;
+     content: "";
+     width: 3em; /* 線の長さ */
+    }
+    .midashi:before {
+    margin-right: 1em; /* 文字の右隣 */
+    }
+    .midashi:after {
+    margin-left: 1em; /* 文字の左隣 */
+    }
+    .text{
+      letter-spacing: 6px;
+    }
+    #logo{
+      height: auto;
+      max-width: 150px;
+      margin-top: 20px;
+    }
+    .eye-img,.message{
+      display: inline-block;
+      vertical-align:middle;
+    }
+    .right2,.right4,.right6,.right8{
+      border: double 3px #cccccc;
+      padding: 30px;
+      border-radius: 0 300px 0 300px;
+    }
+    .left1,.left3,.left5,.left7{
+      border: double 3px #cccccc;
+      padding: 30px;
+      border-radius: 300px 0 300px 0;
+    }
+    .right2,.right4,.right6,.right8,.left1,.left3,.left5,.left7,.eye-img{
+      width: 70%;
+      height: auto;
+    }
+    .picandtext{
+      padding-top: 80px;
+      padding-bottom: 80px;
+      margin-top: 50px;
+    }
+
+    .no1{
+      color: #cc3333;
+      padding-right: 150px;
+      padding-left: 0;
+      padding-bottom: 10px;
+      border-bottom: double 3px #cccccc;
+    }
+    .no2{
+      color: #66ccff;
+      padding-right: 0;
+      padding-left: 150px;
+      padding-bottom: 10px;
+      border-bottom: double 3px #cccccc;
+    }
+    #no3{
+      color: #cc99ff;
+      padding-right: 150px;
+      padding-left: 0;
+      padding-bottom: 10px;
+      border-bottom: double 3px #cccccc;
+    }
+    #no4{
+      color: #ff99cc;
+      padding-right: 0;
+      padding-left: 150px;
+      padding-bottom: 10px;
+      border-bottom: double 3px #cccccc;
+    }
+    #no5{
+      color: #38b48b;
+      padding-right: 150px;
+      padding-left: 0;
+      padding-bottom: 10px;
+      border-bottom: double 3px #cccccc;
+    }
+    #no6{
+      color: #ec6d71;
+      padding-right: 0;
+      padding-left: 150px;
+      padding-bottom: 10px;
+      border-bottom: double 3px #cccccc;
+    }
+    #no7{
+      color: #ffdb4f;
+      padding-right: 150px;
+      padding-left: 0;
+      padding-bottom: 10px;
+      border-bottom: double 3px #cccccc;
+    }
+    #no8{
+      color: #ec6d51;
+      padding-right: 0;
+      padding-left: 150px;
+      padding-bottom: 10px;
+      border-bottom: double 3px #cccccc;
+    }
+    .title_left{
+      text-align: left;
+    }
+    .title_right{
+      text-align: right;
+    }
+    .bottom{
+      margin-top: 100px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <p><img id="top" src="top_red_2.jpg"></p>
+  <div id="about">
+    <h1 class="midashi">ABOUT ME</h1>
+    <div class="text">
+      <h2>NAO DOI</h2>
+      <h3>土居夏緒</h3>
+      <div id="profile">
+        <p>産業イノベーションデザイン学科1年</p>
+        <p>所属卓 白-haku-<br><img id="logo" src="haku_logo.jpg"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="main">
+    <h1 class="midashi">WORKS</h1>
+
+    <div>
+
+      <div class="picandtext">
+        <div class="eye-img" class="no1">
+          <img class="left1"  src="red_heart2.jpg">
+        </div>
+        <div class="message">
+          <h1 class="no1">No.1</h1>
+          <h2 class="title_left">heart beat</h2>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="picandtext">
+        <div class="message">
+          <h1 class="no2">No.2</h1>
+          <h2 class="title_right">speedster</h2>
+        </div>
+        <div class="eye-img" class="no2">
+          <img class="right2" src="blue_line.jpg">
+        </div>
+      </div>
+
+      <br>
+
+      <div class="picandtext">
+        <div class="eye-img">
+          <img class="left3" src="spangles.jpg">
+        </div>
+        <div class="message">
+          <h1 id="no3">No.3</h1>
+          <h2 class="title_left">on the stage</h2>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="picandtext">
+        <div class="message">
+          <h1 id="no4">No.4</h1>
+          <h2 class="title_right">sparkling peach</h2>
+        </div>
+        <div class="eye-img">
+          <img class="right4" src="pearls.jpg">
+        </div>
+      </div>
+
+      <br>
+
+      <div class="picandtext">
+        <div class="eye-img">
+          <img class="left5" src="green.jpg">
+        </div>
+        <div class="message">
+          <h1 id="no5">No.5</h1>
+          <h2 class="title_left">mermaid skin</h2>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="picandtext">
+        <div class="message">
+          <h1 id="no6">No.6</h1>
+          <h2 class="title_right">love myself</h2>
+        </div>
+        <div class="eye-img">
+          <img class="right6" src="pink_heart.jpg">
+        </div>
+      </div>
+
+      <br>
+
+      <div class="picandtext">
+        <div class="eye-img">
+          <img class="left7" src="rainbow.jpg">
+        </div>
+        <div class="message">
+          <h1 id="no7">No.7</h1>
+          <h2 class="title_left">tropical fish</h2>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="picandtext">
+        <div class="message">
+          <h1 id="no8">No.8</h1>
+          <h2 class="title_right">mini perfume</h2>
+        </div>
+        <div class="eye-img">
+          <img class="right8" src="flowers.jpg">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="bottom">
+    <p>©︎ 2021 Nao Doi</p>
+  </div>
+</body>
+</html>
